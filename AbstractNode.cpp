@@ -1,5 +1,4 @@
 #include <iostream>
-#include <map>
 #include <vector>
 #include <random>
 
@@ -7,7 +6,7 @@ using namespace std;
 
 class Node {
 public:
-    virtual void handleEvent(int data) = 0;
+    virtual void HandleEvent(int data) = 0;
 };
 
 class Network {
@@ -15,19 +14,19 @@ private:
     vector<Node*> nodes;
 
 public:
-    void addNode(Node* newNode) {
+    void AddNode(Node* newNode) {
         nodes.push_back(newNode);
     }
 
-    void updateNetwork() {
+    void UpdateNetwork() {
         for (Node* node : nodes) {
-            int eventData = generateRandomData(); // Генерация случайных данных
-            node->handleEvent(eventData); // Обработка события узлом
+            int eventData = GenerateRandomData(); // Generate random data
+            node->HandleEvent(eventData); // Handle node event
         }
     }
 
 private:
-    int generateRandomData() {
+    int GenerateRandomData() {
         std::random_device rd;
         std::mt19937 gen(rd());
         std::uniform_int_distribution<> dis(1, 100);
@@ -37,18 +36,24 @@ private:
 
 class CustomNode : public Node {
 public:
-    void handleEvent(int data) override
+    void HandleEvent(int data) override
     {
-        cout << "Обработка события с данными: " << data << endl;
+        cout << "Data event processing: " << data << "\n";
     }
 };
 
-int main() {
+int main()
+{
     Network network;
-    CustomNode node1, node2;
-    network.addNode(&node1);
-    network.addNode(&node2);
-    network.updateNetwork();
+    CustomNode node1, node2, node3, node4;
+    network.AddNode(&node1);
+    network.AddNode(&node2);
+    network.AddNode(&node3);
+    network.AddNode(&node4);
+    network.UpdateNetwork();
+
+    cout << "Press Enter to close...";
+    cin.get();
     
     return 0;
 }

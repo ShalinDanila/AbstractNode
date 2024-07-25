@@ -7,10 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8af8e598-69bd-42e6-b658-31d8ef0a7697" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AbstractNode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AbstractNode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AbstractNode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractNode.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="8af8e598-69bd-42e6-b658-31d8ef0a7697" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +15,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/Danila/Desktop/働く/Новая папка/AbstractNode/AbstractNode.cpp" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 0
@@ -108,11 +108,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721857034277</updated>
-      <workItem from="1721857035411" duration="3069000" />
+      <workItem from="1721857035411" duration="3250000" />
     </task>
+    <task id="LOCAL-00001" summary="Make a skeleton of the project">
+      <option name="closed" value="true" />
+      <created>1721860207564</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721860207564</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Make a skeleton of the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make a skeleton of the project" />
   </component>
 </project>
