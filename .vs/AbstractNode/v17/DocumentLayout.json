@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Danila\\Desktop\\\u50CD\u304F\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AbstractNode\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Danila\\Desktop\\\u50CD\u304F\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AbstractNode\\AbstractNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AbstractNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9131C9C6-9257-42B3-ABF2-38564CC89BD2}|AbstractNode.vcxproj|C:\\Users\\Danila\\Desktop\\\u50CD\u304F\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AbstractNode\\AbstractNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9131C9C6-9257-42B3-ABF2-38564CC89BD2}|AbstractNode.vcxproj|solutionrelative:AbstractNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "AbstractNode.cpp",
               "ToolTip": "C:\\Users\\Danila\\Desktop\\\u50CD\u304F\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\AbstractNode\\AbstractNode.cpp",
               "RelativeToolTip": "AbstractNode.cpp",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAC8AAAAXAAAA",
+              "ViewState": "AQIAAKsAAAAAAAAAAAAAAK8AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-07-25T12:23:09.68Z",
               "EditorCaption": ""
