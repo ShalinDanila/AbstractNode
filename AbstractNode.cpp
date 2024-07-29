@@ -91,7 +91,7 @@ class Network
 {
 public:
     /*VARIABLES*/
-    int AmountOfNodes = 5; // Количество нод при инициализации сети 
+    int AmountOfNodes = 15; // Количество нод при инициализации сети 
     vector<Node*> AllNodes;
     vector<Node*> ArrayInstance;
 
@@ -159,6 +159,12 @@ public:
         {
             Node* NewActiveNode = ArrayInstance[i];
             ChooseTheAction(NewActiveNode);
+            if(NewActiveNode->Neighbors.empty())
+            {
+                cout << NewActiveNode->Name << " was deleted" << "\n";
+                auto GarbageNode = find(AllNodes.begin(), AllNodes.end(), NewActiveNode);
+                AllNodes.erase(GarbageNode);
+            }
         }
         ArrayInstance = AllNodes;
         this_thread::sleep_for(chrono::seconds(2));

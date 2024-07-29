@@ -7,18 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8af8e598-69bd-42e6-b658-31d8ef0a7697" name="Changes" comment="">
+    <list default="true" id="8af8e598-69bd-42e6-b658-31d8ef0a7697" name="Changes" comment="Nodes without neighbors need to be deleted">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AbstractNode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AbstractNode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/AbstractNode/FileContentIndex/2cda56b2-1d6a-40ee-9389-2f5774a64600.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/AbstractNode/FileContentIndex/b24cca47-98cf-49cd-a2be-5331e70619b1.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/AbstractNode/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/AbstractNode/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/AbstractNode/v17/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/AbstractNode/v17/Browse.VC.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/AbstractNode/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/AbstractNode/v17/DocumentLayout.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AbstractNode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractNode.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AbstractNode/x64/Debug/AbstractNode.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractNode/x64/Debug/AbstractNode.ilk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AbstractNode/x64/Debug/AbstractNode.obj" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractNode/x64/Debug/AbstractNode.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AbstractNode/x64/Debug/AbstractNode.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractNode/x64/Debug/AbstractNode.tlog/CL.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AbstractNode/x64/Debug/AbstractNode.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractNode/x64/Debug/AbstractNode.tlog/link.read.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AbstractNode/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractNode/x64/Debug/vc143.idb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AbstractNode/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractNode/x64/Debug/vc143.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/x64/Debug/AbstractNode.exe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/AbstractNode.exe" afterDir="false" />
@@ -52,21 +45,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;C++ Project.AbstractNode.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "C++ Project.AbstractNode.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "368e1295",
+    "settings.editor.selected.configurable": "terminal"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\Danila\\AppData\\Local\\JetBrains\\Shared\\vAny\\DecompilerCache&quot;,
-      &quot;C:\\Users\\Danila\\AppData\\Local\\JetBrains\\Shared\\vAny\\SourcesCache&quot;,
-      &quot;C:\\Users\\Danila\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\Danila\\AppData\\Local\\JetBrains\\Shared\\vAny\\DecompilerCache",
+      "C:\\Users\\Danila\\AppData\\Local\\JetBrains\\Shared\\vAny\\SourcesCache",
+      "C:\\Users\\Danila\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="AbstractNode" type="CppProject" factoryName="C++ Project">
       <configuration_1>
@@ -137,6 +130,7 @@
       <workItem from="1721992278614" duration="8313000" />
       <workItem from="1722087609074" duration="735000" />
       <workItem from="1722193693527" duration="11679000" />
+      <workItem from="1722257593984" duration="331000" />
     </task>
     <task id="LOCAL-00001" summary="Make a skeleton of the project">
       <option name="closed" value="true" />
@@ -161,6 +155,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Make a skeleton of the project" />
     <MESSAGE value="Add console things" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add console things" />
+    <MESSAGE value="Nodes without neighbors need to be deleted" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nodes without neighbors need to be deleted" />
   </component>
 </project>
